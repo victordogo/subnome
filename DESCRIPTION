@@ -2,12 +2,10 @@ Package: subnome
 Title: Substitua Nomes em Uma String
 Version: 0.0.0.9000
 Authors@R: 
-    c(
-    person("Samantha", "Navarro", , "first.last@example.com", role = c("aut", "cre"),
+    c(person("Samantha", "Navarro", , "first.last@example.com", role = c("aut"),
            comment = c(ORCID = "YOUR-ORCID-ID")),
     person("Victor", "Dogo", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-    )
+           comment = c(ORCID = "YOUR-ORCID-ID")))
 Description: Pacote teste para a disciplina de Perspectiva em Ciência de Dados que substitui nomes dentro de uma string.
 License: GPL (>= 3)
 Encoding: UTF-8
@@ -17,3 +15,6 @@ URL: https://github.com/victordogo/subnome
 BugReports: https://github.com/victordogo/subnome/issues
 Imports: 
     stringr
+Depends: 
+    R (>= 2.10)
+LazyData: true
